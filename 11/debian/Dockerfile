@@ -20,11 +20,17 @@
 #  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #  THE SOFTWARE.
 
+<<<<<<< HEAD:11/debian/Dockerfile
 ARG version=4.3-6-jdk11
 FROM jenkins/agent:$version
 
 ARG version
 LABEL Description="This is a base image, which allows connecting Jenkins agents via JNLP protocols" Vendor="Jenkins project" Version="$version"
+=======
+FROM yebyen/docker-slave
+MAINTAINER Kingdon Barrett <kbarret8@nd.edu>
+LABEL Description="This is a base image, which allows connecting Jenkins agents via JNLP protocols" Vendor="Jenkins project" Version="3.35-2"
+>>>>>>> source:Dockerfile
 
 ARG user=jenkins
 
