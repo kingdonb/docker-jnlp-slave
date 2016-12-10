@@ -20,8 +20,8 @@
 #  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #  THE SOFTWARE.
 
-FROM jenkins/slave:3.35-3
-MAINTAINER Oleg Nenashev <o.v.nenashev@gmail.com>
+FROM yebyen/docker-slave
+MAINTAINER Kingdon Barrett <kbarret8@nd.edu>
 LABEL Description="This is a base image, which allows connecting Jenkins agents via JNLP protocols" Vendor="Jenkins project" Version="3.35-2"
 
 ARG user=jenkins
