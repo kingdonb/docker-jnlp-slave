@@ -20,8 +20,8 @@
 #  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #  THE SOFTWARE.
 
-FROM jenkinsci/slave
-MAINTAINER Nicolas De Loof <nicolas.deloof@gmail.com>
+FROM yebyen/docker-slave
+MAINTAINER Kingdon Barrett <kbarret8@nd.edu>
 
 COPY jenkins-slave /usr/local/bin/jenkins-slave
 
