@@ -25,4 +25,3 @@ MAINTAINER Kingdon Barrett <kbarret8@nd.edu>
 
 COPY jenkins-slave /usr/local/bin/jenkins-slave
 
-ENTRYPOINT ["jenkins-slave"]
