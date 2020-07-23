@@ -21,7 +21,7 @@
 #  THE SOFTWARE.
 
 ARG version=4.3-6
-FROM jenkins/agent:$version
+FROM yebyen/docker-slave:latest
 
 ARG version
 LABEL Description="This is a base image, which allows connecting Jenkins agents via JNLP protocols" Vendor="Jenkins project" Version="$version"
